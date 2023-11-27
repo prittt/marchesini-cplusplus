@@ -29,7 +29,7 @@ void Ribalta(std::vector<T> &v);
 
 La funzione prende in input il vettore `v` e ne "ribalta" gli elementi.
 
-Se il vettore di input fosse ad esempio `v = {1, 2, 3, 4}`, la funzione dovrebbe trasformarlo in `v = {4, 3, 2, 1}`.
+Se il vettore di input fosse ad esempio `v = {1, 7, 5, 3}`, la funzione dovrebbe trasformarlo in `v = {3, 5, 7, 1}`.
 
 # Esercizio 5
 

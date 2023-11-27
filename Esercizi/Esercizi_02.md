@@ -26,7 +26,7 @@ Se `from_lst` e `to_lst` hanno lunghezze diverse, la funzione non modifica `s`.
 Nei file `conta.h` e `conta.cpp` implementare la funzione:
 
 ```c++
-int conta(const std::string& str);
+int Conta(const std::string& str);
 ```
 
 La funzione accetta come parametro una stringa e deve restituire quante parole sono presenti all'interno della stringa, dove **con "parola" intendiamo una sequenza di caratteri diversi da spazio**. 
@@ -39,7 +39,7 @@ Ad esempio, chiamare la funzione passando la stringa `"  Questa e' una stringa l
 Creare i file `hexstring.h` e `hexstring.cpp` che consentano di utilizzare la seguente funzione:
 
 ```c++
-std::vector<int> hexStringToValues(const std::string& s);
+std::vector<int> HexStringToValues(const std::string& s);
 ```
 La funzione accetta come input una stringa contenente da 0 a 8 coppie di caratteri che rappresentano cifre esadecimali, ovvero da `'0'` a `'9'` e da `'A'` a `'F'` e da `'a'` a `'f'`. La funzione deve ritornare un vettore contenente sempre 8 valori (di tipo int) corrispondenti ad ogni coppia di caratteri in `s` interpretata come numero esadecimale a due cifre. Se `s` contiene meno di 8 coppie di cifre esadecimali, i restanti valori dovranno essere zero.
 
